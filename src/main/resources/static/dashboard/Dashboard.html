@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAuth Dashboard</title>
+    <link rel="stylesheet" href="Dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 class="title">Welcome xyz</h1>
+            <p class="email">xyz@example.com</p>
+
+            <!-- Wrapped in a form for Spring Security default compatibility -->
+            <form action="/logout" method="post">
+                <button type="submit" class="logout-btn" id="logout-btn">Logout</button>
+            </form>
+        </div>
+    </div>
+    <script src="Dashboard.js"></script>
+</body>
+</html>
